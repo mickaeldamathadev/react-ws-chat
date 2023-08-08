@@ -1,0 +1,30 @@
+{
+  "name": "package-name",
+  "version": "1.0.9",
+  "description": "package description",
+  "private": false,
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "mkdm-react-websocket-hook": "file:../packages/react-ws-hook",
+    "react": "~18.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https//github.com/mickadam87/package-name.git"
+  },
+  "keywords": [],
+  "author": "Mickael Da matha sant'anna",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.2.4",
+    "@types/react": "^18.2.19",
+    "typescript": "^4.9.4"
+  }
+}
